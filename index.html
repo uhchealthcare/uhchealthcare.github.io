@@ -1,1 +1,375 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Activate.uhc.com</title>
+
+<meta name="description" content="Activate your UnitedHealthcare plan easily at activate.uhc.com. Follow our step-by-step guide, FAQs, and expert tips.">
+<meta name="keywords" content="activate.uhc.com, UnitedHealthcare, UHC activation, myuhc, health insurance, UHC login">
+<meta property="og:title" content="Activate Your UnitedHealthcare Account - activate.uhc.com Guide">
+<meta property="og:description" content="Official step-by-step guide to activate your UnitedHealthcare account via activate.uhc.com.">
+<meta property="og:image" content="/images/uhc-preview.jpg">
+<meta property="og:type" content="website">
+
+
+  <!-- Tailwind CSS -->
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <style>
+    .nav-scrolled {
+  backdrop-filter: blur(12px);
+  background-color: rgba(255, 255, 255, 0.85);
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+  </style>
+
+ <!-- ✅ AOS Animation Library -->
+<link rel="stylesheet" href="https://unpkg.com/aos@2.3.4/dist/aos.css" />
+<script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+
+</head>
+
+<body class="bg-gray-100 font-sans leading-relaxed">
+ <nav class="bg-white shadow-md fixed top-0 left-0 w-full z-50">
+  <div class="max-w-7xl mx-auto px-6 flex justify-between items-center h-16">
+    
+    <!-- Left: Logo -->
+    <div class="flex items-center space-x-2">
+      <img src="/images/logo (2) (2).png" alt="UHC Logo" class="h-10 w-auto">
+    </div>
+
+    <!-- Right: Navigation Links -->
+    <div class="hidden md:flex space-x-8 font-medium text-gray-700">
+      <a href="#home" class="hover:text-blue-600 transition">Home</a>
+      <a href="#About" class="hover:text-blue-600 transition">About</a>
+      <a href="#Steps" class="hover:text-blue-600 transition">Steps to Activate</a>
+      <a href="#faqs" class="hover:text-blue-600 transition">FAQs</a>
+     
+    </div>
+
+    <!-- Mobile Menu Button -->
+    <button id="menu-btn" class="text-gray-700 focus:outline-none md:hidden">
+      <svg class="w-7 h-7" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+          d="M4 6h16M4 12h16M4 18h16" />
+      </svg>
+    </button>
+  </div>
+
+  <!-- Mobile Dropdown Menu -->
+  <div id="mobile-menu"
+    class="hidden md:hidden bg-white border-t border-gray-100 shadow-lg absolute top-16 left-0 w-full text-center">
+    <a href="#home" class="block py-3 text-gray-700 hover:bg-blue-50 hover:text-blue-600 transition">Home</a>
+    <a href="#About" class="block py-3 text-gray-700 hover:bg-blue-50 hover:text-blue-600 transition">About</a>
+    <a href="#Steps" class="block py-3 text-gray-700 hover:bg-blue-50 hover:text-blue-600 transition">Steps to Activate</a>
+    <a href="#faqs" class="block py-3 text-gray-700 hover:bg-blue-50 hover:text-blue-600 transition">FAQs</a>
+  </div>
+</nav>
+
+<!-- Navbar Toggle Script -->
+<script>
+  const menuBtn = document.getElementById("menu-btn");
+  const mobileMenu = document.getElementById("mobile-menu");
+
+  menuBtn.addEventListener("click", () => {
+    mobileMenu.classList.toggle("hidden");
+  });
+
+  // Hide menu when clicking a link
+  document.querySelectorAll("#mobile-menu a").forEach(link => {
+    link.addEventListener("click", () => {
+      mobileMenu.classList.add("hidden");
+    });
+  });
+</script>
+
+
+  <!-- ✅ Hero Section -->
+<section id="home" class="flex flex-col md:flex-row mt-16 bg-white" data-aos="fade-up">
+  <!-- Left: Image -->
+ <div
+  class="relative md:w-1/2 h-[60vh] md:h-[90vh] bg-cover bg-center"
+  style="background-image: url('/images/covid-19-frontline-healthcare-essential-workers.jpg');">
+</div>
+
+
+  <!-- Right: Text -->
+<div class="md:w-1/2 flex items-center justify-center bg-blue-600 text-white px-6 py-12 md:py-0">
+    <div class="max-w-md text-center md:text-left">
+      <h1 class="text-4xl md:text-6xl font-bold mb-6 leading-tight">
+        Start Your UHC Journey at activate.uhc.com
+      </h1>
+      <p class="text-lg md:text-xl leading-relaxed mb-6">
+        Take control of your health coverage with ease. The portal 
+        <strong>activate.uhc.com</strong> helps new UnitedHealthcare members activate their online accounts and access benefits, ID cards, and wellness tools all in one secure space.
+      </p>
+     <a
+  href="#Click"
+  class="inline-block bg-white text-blue-700 font-semibold px-6 py-3 rounded-full shadow 
+         hover:scale-105 hover:shadow-lg hover:bg-blue-100 transition-transform duration-300"
+>
+  Click To Continue
+</a>
+
+    </div>
+  </div>
+</section>
+
+
+
+
+  <!-- ✅ about Section -->
+<section id="About" class="py-24 bg-white" data-aos="fade-up">
+  <div class="max-w-6xl mx-auto px-6 grid md:grid-cols-2 gap-12 items-center">
+    
+    <!-- Left: Text Content -->
+    <div>
+      <h2 class="text-4xl font-bold text-blue-700 mb-6 leading-tight">
+        What Is <span class="text-blue-600">activate.uhc.com</span>?
+      </h2>
+      <p class="text-gray-700 text-lg leading-relaxed mb-4">
+        <a href="https://activate.uhc.com" class="text-blue-600 font-semibold hover:underline">activate.uhc.com</a> 
+        is the official UnitedHealthcare activation portal designed for new members to easily set up and manage their online health accounts. This secure platform connects you directly to your UHC plan and allows you to access all your benefits in one convenient place.
+      </p>
+      <p class="text-gray-700 text-lg leading-relaxed mb-4">
+        By activating your account, you can explore personalized plan details, digital ID cards, claim summaries, and benefit information anytime. The platform is built with a focus on accessibility, security, and simplicity ensuring you spend less time managing paperwork and more time focusing on your health.
+      </p>
+      <ul class="list-disc ml-5 mt-6 space-y-2 text-gray-700 text-lg">
+        <li>Quickly link your insurance plan with your online account</li>
+        <li>Check claims, coverage, and medical benefits in real time</li>
+        <li>Find nearby in-network doctors, labs, and pharmacies</li>
+        <li>Access wellness programs, telehealth visits, and rewards</li>
+      </ul>
+      <p class="mt-6 text-black-700 font-medium">
+        Whether you’re a new or returning UHC member, activating your account ensures a smoother healthcare experience.
+      </p>
+    </div>
+
+    <!-- Right: Illustration / Image -->
+    <div class="flex justify-center">
+      <img
+        src="/images/healthcare-professionals-review-mri-scan-test-results-neurology-x-rays.jpg"
+        alt="UHC Activation Portal"
+        class="rounded-2xl shadow-lg w-full md:w-[85%] object-cover"
+      />
+    </div>
+
+  </div>
+</section>
+
+
+  <!-- ✅ Steps Section -->
+  <section id="Steps" class="py-20 bg-gray-50">
+    <div class="max-w-6xl mx-auto px-6">
+      <h2 class="text-3xl md:text-4xl font-bold text-center text-blue-700 mb-14">
+        Steps to Activate Your UnitedHealthcare Account via 
+        <span class="text-blue-600">activate.uhc.com</span>
+      </h2>
+
+      <div class="space-y-10">
+        <!-- Reusable Step Card -->
+        <div class="bg-white shadow-lg rounded-2xl p-8 hover:shadow-xl transition">
+          <h3 class="text-2xl font-semibold text-gray-900 mb-4">Step 1: Visit the Official Activation Page</h3>
+          <p class="text-gray-700 mb-3">
+            Open Chrome, Safari, Edge, or Firefox and go to:
+            <a href="https://activate.uhc.com" target="_blank" class="text-blue-600 underline hover:text-blue-800">https://activate.uhc.com</a>.
+          </p>
+          <p class="text-gray-700 mb-3">
+            Ensure it’s the official UHC website (check for https:// in the URL).
+          </p>
+          <p class="text-blue-700 font-medium">Tip: For best results, use a desktop or laptop for setup.</p>
+        </div>
+
+        <div class="bg-white shadow-lg rounded-2xl p-8 hover:shadow-xl transition">
+          <h3 class="text-2xl font-semibold text-gray-900 mb-4">Step 2: Enter Your Member Information</h3>
+          <p class="text-gray-700 mb-4">
+            You’ll need to enter details from your UHC ID card or welcome kit:
+          </p>
+          <ul class="list-disc ml-6 space-y-2 text-gray-700">
+            <li>Your UHC Member ID</li>
+            <li>Your Date of Birth (MM/DD/YYYY)</li>
+            <li>Zip Code linked to your plan</li>
+          </ul>
+          <p class="text-blue-700 font-medium mt-3">Tip: Manually type your ID to avoid formatting issues.</p>
+        </div>
+
+        <div class="bg-white shadow-lg rounded-2xl p-8 hover:shadow-xl transition">
+          <h3 class="text-2xl font-semibold text-gray-900 mb-4">Step 3: Use the Activation Code (If Provided)</h3>
+          <p class="text-gray-700 mb-3">
+            Some members get an activation code by mail or email enter it to link your plan faster.
+          </p>
+          <p class="text-gray-700">No code? Click <strong>Don’t have a code?</strong> and follow the verification steps.</p>
+        </div>
+
+        <div class="bg-white shadow-lg rounded-2xl p-8 hover:shadow-xl transition">
+          <h3 class="text-2xl font-semibold text-gray-900 mb-4">Step 4: Create Your UHC Login Credentials</h3>
+          <ul class="list-disc ml-6 space-y-2 text-gray-700 mb-4">
+            <li>Use 8–20 characters</li>
+            <li>Include uppercase + lowercase letters</li>
+            <li>Add at least one number and one special character</li>
+            <li>Avoid using personal information</li>
+          </ul>
+          <p class="text-blue-700 font-medium">Tip: Store your password safely in a password manager.</p>
+        </div>
+
+        <div class="bg-white shadow-lg rounded-2xl p-8 hover:shadow-xl transition">
+          <h3 class="text-2xl font-semibold text-gray-900 mb-4">Step 5: Verify Your Identity</h3>
+          <ul class="list-disc ml-6 space-y-2 text-gray-700 mb-4">
+            <li>Email verification link</li>
+            <li>Text message (OTP)</li>
+            <li>Security questions</li>
+          </ul>
+          <p class="text-gray-700">Follow the prompts to confirm your identity and secure your account.</p>
+        </div>
+
+        <div class="bg-white shadow-lg rounded-2xl p-8 hover:shadow-xl transition">
+          <h3 class="text-2xl font-semibold text-gray-900 mb-4">Step 6: Confirm Account Activation</h3>
+          <p class="text-gray-700">
+            Once activated, you’ll see:
+            <strong>Your UnitedHealthcare Account Has Been Activated Successfully.</strong><br />
+            Log in anytime at
+            <a href="https://myuhc.com" target="_blank" class="text-blue-600 underline hover:text-blue-800">activate.uhc.com</a>
+            or via the UHC app.
+          </p>
+        </div>
+
+        <div class="bg-white shadow-lg rounded-2xl p-8 hover:shadow-xl transition">
+          <h3 class="text-2xl font-semibold text-gray-900 mb-4">Step 7: Explore Your Member Dashboard</h3>
+          <ul class="list-disc ml-6 space-y-2 text-gray-700">
+            <li>View your digital ID card</li>
+            <li>Track claims and payments</li>
+            <li>Find in-network doctors</li>
+            <li>Manage prescriptions</li>
+            <li>Access rewards and telehealth tools</li>
+          </ul>
+          <p class="text-blue-700 font-medium mt-3">Tip: Download the UHC mobile app for easy access.</p>
+        </div>
+
+        <div class="bg-white shadow-lg rounded-2xl p-8 hover:shadow-xl transition">
+          <h3 class="text-2xl font-semibold text-gray-900 mb-4">Step 8: Save Login Info and Enable Notifications</h3>
+          <p class="text-gray-700">
+            Turn on alerts for claims, updates, and renewals. Go paperless for faster, eco-friendly communication.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ✅ FAQs Section -->
+  <section id="faqs" class="py-20 bg-gray-50 text-center">
+    <div class="max-w-4xl mx-auto px-6">
+      <h2 class="text-3xl font-bold text-blue-600 mb-8">Frequently Asked Questions</h2>
+      <div id="faq-container" class="space-y-4 text-left"></div>
+    </div>
+  </section>
+
+  <!-- ✅ Disclaimer -->
+  <section id="contact" class="py-20 bg-white text-center">
+    <div class="max-w-3xl mx-auto px-6">
+      <h2 class="text-3xl font-bold text-blue-600 mb-6">Disclaimer</h2>
+      <p class="text-gray-700 mb-2">
+        This website is not associated with
+        <a href="https://activate.uhc.com" class="text-blue-600 font-semibold hover:underline">activate.uhc.com</a>
+      </p>
+      <p class="text-gray-500 text-sm">Disclaimer
+This website is not associated with homedepot.com/mycard or any other brand. We are an independent or third-party service provider providing support with our service packages.
+ </p>
+    </div>
+  </section>
+
+  <!-- ✅ Footer -->
+  <footer class="bg-gray-800 text-white text-center py-6">
+    <p class="text-sm">&copy; 2025 UHC Activate (Demo Page) — All rights reserved.</p>
+  </footer>
+
+  <!-- ✅ FAQ Script -->
+  <script>
+    const faqs = [
+      { q: "What is activate.uhc.com?", a: "It’s the official UnitedHealthcare site for activating your health plan securely." },
+      { q: "Is my information safe?", a: "Yes, all data is encrypted and securely transmitted." },
+      { q: "Can I activate by phone?", a: "Yes, call the number printed on your UnitedHealthcare ID card." },
+      { q: "Do I need an online account?", a: "Yes, registration is required to verify your identity and manage benefits." },
+      { q: "How long does activation take?", a: "Most activations complete instantly once verified." }
+    ];
+
+    const faqContainer = document.getElementById("faq-container");
+    faqs.forEach(f => {
+      const div = document.createElement("div");
+      div.className = "bg-white p-5 rounded-xl shadow hover:bg-blue-50 transition cursor-pointer";
+      div.innerHTML = `
+        <h3 class="font-semibold text-lg flex justify-between items-center text-gray-900">
+          ${f.q}
+          <span class="toggle text-2xl">+</span>
+        </h3>
+        <p class="mt-2 text-gray-700 hidden">${f.a}</p>
+      `;
+      div.addEventListener("click", () => {
+        const p = div.querySelector("p");
+        const t = div.querySelector(".toggle");
+        p.classList.toggle("hidden");
+        t.textContent = p.classList.contains("hidden") ? "+" : "−";
+      });
+      faqContainer.appendChild(div);
+    });
+  </script>
+
+  <!-- ✅ Back to Top Button -->
+  <button id="backToTopBtn"
+    class="hidden fixed bottom-6 right-6 bg-blue-600 hover:bg-blue-700 text-white p-3 rounded-full shadow-lg transition">
+    ↑
+  </button>
+
+  <script>
+    const topBtn = document.getElementById("backToTopBtn");
+    window.addEventListener("scroll", () => {
+      if (window.scrollY > 400) topBtn.classList.remove("hidden");
+      else topBtn.classList.add("hidden");
+    });
+    topBtn.addEventListener("click", () => {
+      window.scrollTo({ top: 0, behavior: "smooth" });
+    });
+  </script>
+
+<script>
+  AOS.init({ duration: 1000, once: true });
+</script>
+
+<script>
+  const navbar = document.querySelector("nav");
+  window.addEventListener("scroll", () => {
+    if (window.scrollY > 30) navbar.classList.add("nav-scrolled");
+    else navbar.classList.remove("nav-scrolled");
+  });
+</script>
+
+<script>
+  const sections = document.querySelectorAll("section");
+  const navLinks = document.querySelectorAll("nav a");
+
+  window.addEventListener("scroll", () => {
+    let current = "";
+    sections.forEach((section) => {
+      const sectionTop = section.offsetTop - 80;
+      if (pageYOffset >= sectionTop) current = section.getAttribute("id");
+    });
+    navLinks.forEach((link) => {
+      link.classList.remove("text-blue-600", "font-semibold");
+      if (link.getAttribute("href") === `#${current}`) {
+        link.classList.add("text-blue-600", "font-semibold");
+      }
+    });
+  });
+</script>
+
+<script>
+  AOS.init({
+    duration: 1000, // Animation speed (1 second)
+    once: true      // Run only once per element
+  });
+</script>
+
+</body>
+</html>
 
